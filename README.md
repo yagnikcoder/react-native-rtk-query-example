@@ -1,3 +1,13 @@
+| Package                                     | Purpose                                 |
+| ------------------------------------------- | --------------------------------------- |
+| `@reduxjs/toolkit`                          | Create Redux store/slices easily        |
+| `react-redux`                               | Connect Redux with React components     |
+| `redux-persist`                             | Keep Redux data after app restart       |
+| `@react-native-async-storage/async-storage` | Used to physically store data on device |
+
+
+
+
 | Term                           | Description                                                                                     |
 | ------------------------------ | ----------------------------------------------------------------------------------------------- |
 | **`createApi`**                | The main function to define your API slice. You use this to configure base URL, endpoints, etc. |
@@ -23,53 +33,6 @@
 | **`pollingInterval`**          | Automatically re-fetch the query at an interval (in ms).                                        |
 | **`onQueryStarted`**           | A lifecycle hook to run code (like optimistic updates) when a request starts.                   |
 | **`onCacheEntryAdded`**        | Used for managing subscriptions and live updates.                                               |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
